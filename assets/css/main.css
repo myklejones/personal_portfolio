@@ -84,6 +84,7 @@ input, select, textarea {
 
 	body {
 		padding-top: 3.5em;
+		
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -95,6 +96,7 @@ input, select, textarea {
 			-webkit-transition: none !important;
 			-ms-transition: none !important;
 			transition: none !important;
+			
 		}
 
 	body, input, textarea, select {
@@ -103,6 +105,7 @@ input, select, textarea {
 		color: #888;
 		font-weight: 300;
 		font-size: 13pt;
+		
 	}
 
 	a {
@@ -227,6 +230,8 @@ input, select, textarea {
 		margin: 0 auto;
 		max-width: calc(100% - 50px);
 		width: 1200px;
+		
+		
 	}
 
 		.container.medium {
@@ -289,6 +294,7 @@ input, select, textarea {
 		flex-wrap: wrap;
 		box-sizing: border-box;
 		align-items: stretch;
+		
 	}
 
 		.row > * {
@@ -1988,7 +1994,7 @@ input, select, textarea {
 /* Wrappers */
 
 	.wrapper {
-		background-image: url("images/bg.png");
+		background-image: 'https://images.unsplash.com/photo-1490644658840-3f2e3f8c5625?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60';
 		box-shadow: inset 0px 1px 0px 0px rgba(0, 0, 0, 0.05), inset 0px 2px 3px 0px rgba(0, 0, 0, 0.1);
 		padding: 8em 0 8em 0;
 		text-align: center;
