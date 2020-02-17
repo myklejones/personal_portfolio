@@ -127,7 +127,7 @@ input, select, textarea {
 
 	b, strong {
 		font-weight: 600;
-		color: #3e3e3e;
+		color: whitesmoke;
 	}
 
 	i, em {
@@ -153,7 +153,7 @@ input, select, textarea {
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #3e3e3e;
+		color: grey;
 		margin: 0 0 0.75em 0;
 	}
 
@@ -1994,17 +1994,23 @@ input, select, textarea {
 /* Wrappers */
 
 	.wrapper {
-		background-image: 'https://images.unsplash.com/photo-1490644658840-3f2e3f8c5625?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60';
+		background-image: url("images/bg.png");
 		box-shadow: inset 0px 1px 0px 0px rgba(0, 0, 0, 0.05), inset 0px 2px 3px 0px rgba(0, 0, 0, 0.1);
 		padding: 8em 0 8em 0;
 		text-align: center;
 	}
 
 		.wrapper.style1 {
-			background-image: none;
-			background-color: #fff;
-		}
+			background-image: url('https://images.unsplash.com/photo-1529226783002-2d504343a131?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60');
+			background-repeat: repeat;
+			background-position: center;
+			background-size: contain;
+		
+			
 
+			/* background-color: blue ; */
+		}
+		
 		.wrapper.style2 {
 			background-color: #fafafa;
 			text-shadow: 1px 1px 0px #fff;
